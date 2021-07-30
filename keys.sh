@@ -87,10 +87,6 @@ while [ "$1" != "" ]; do
         CLIENT_NAME=$1
         gen_client_keys $CLIENT_NAME 
         ;;
-    --k)
-        shift
-        gen_client_keys $1
-        ;;
     *)
         exit 1
         ;;
