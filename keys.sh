@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SERVER_KEY_PATH="/home/dst/coding/wg-scripts/server"
-CLIENT_KEY_PATH="/home/dst/coding/wg-scripts/client"
+SERVER_KEY_PATH="/etc/wireguard/server"
+CLIENT_KEY_PATH="/etc/wireguard/client"
 
 function gen_server_keys() {
     [[ -d $SERVER_KEY_PATH ]] || mkdir $SERVER_KEY_PATH
