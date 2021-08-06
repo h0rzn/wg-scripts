@@ -16,7 +16,7 @@ function install_on_debian() {
 while [ "$1" != "" ]; do
     case $1 in
     --debian | -d)
-        
+        install_on_debian
         ;;
     --show_possible | -sp)
         
